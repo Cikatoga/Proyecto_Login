@@ -1,5 +1,6 @@
 import requests
-from translator import traducir_texto
+from translator import traducir_ingles_espanol
+
 
 API_URL = "https://api.chucknorris.io/jokes"
 
@@ -9,7 +10,7 @@ def chiste_aleatorio():
         resp = requests.get(f"{API_URL}/random")
         data = resp.json()
         chiste = data.get("value", "No se encontró chiste.")
-        return traducir_texto(chiste)
+        return traducir_ingles_espanol(chiste)
     except Exception as e:
         return f"Error obteniendo chiste: {e}"
 
@@ -27,6 +28,6 @@ def chiste_por_categoria(categoria):
         resp = requests.get(f"{API_URL}/random?category={categoria}")
         data = resp.json()
         chiste = data.get("value", "No se encontró chiste.")
-        return traducir_texto(chiste)
+        return traducir_ingles_espanol(chiste)
     except Exception as e:
         return f"Error obteniendo chiste: {e}"

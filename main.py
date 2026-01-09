@@ -2,13 +2,16 @@ from auth import registrar, login
 from password_reset import recuperar_contrasena
 from chuck_api import chiste_aleatorio, obtener_categorias, chiste_por_categoria
 from translator import traducir_ingles_espanol
+from scraper import obtener_frase_scraping
+
 
 def menu_chuck():
     print("\n--- MENÚ CHUCK NORRIS ---")
     print("1. Chiste aleatorio")
     print("2. Chiste por categoría")
     print("3. Ver categorías")
-    print("4. Salir")
+    print("4. Frase (scraping)")
+    print("5. Salir")
 
     opcion = input("Elige una opción: ")
 
@@ -36,8 +39,14 @@ def menu_chuck():
         categorias = obtener_categorias()
         print("\nCategorías:")
         print(", ".join(categorias))
-
+    
     elif opcion == "4":
+        frase = obtener_frase_scraping()
+        print("\nFrase obtenida por scraping:")
+        print(frase)
+
+
+    elif opcion == "5":
         print("Volviendo...")
     else:
         print("Opción no válida.")

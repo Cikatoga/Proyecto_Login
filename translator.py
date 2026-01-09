@@ -1,9 +1,4 @@
-# translator.py
-
-from googletrans import Translator
-
-translator = Translator()
+from deep_translator import GoogleTranslator
 
 def traducir_ingles_espanol(texto):
-    resultado = translator.translate(texto, src='en', dest='es')
-    return resultado.text
+    return GoogleTranslator(source='en', target='es').translate(texto)
