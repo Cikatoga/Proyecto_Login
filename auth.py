@@ -1,4 +1,5 @@
-import getpass
+# auth.py
+
 from utils import (
     cargar_usuarios,
     guardar_usuarios,
@@ -8,56 +9,39 @@ from utils import (
     verificar_contrasena
 )
 
-def registrar():
-    print("\n--- REGISTRO ---")
-
+# ---------------- LOGIN ----------------
+def login(correo, contrasena):
+    """
+    Login para interfaz gráfica.
+    Devuelve True si el login es correcto, False si no.
+    """
     usuarios = cargar_usuarios()
 
-    while True:
-        correo = input("Correo: ").strip()
+    if correo not in usuarios:
+        return False
 
-        if not validar_correo(correo):
-            print("❌ Correo inválido.\n")
-            continue
-        if correo in usuarios:
-            print("❌ Este correo ya está registrado.\n")
-            continue
-        break
+    if verificar_contrasena(contrasena, usuarios[correo]):
+        return True
 
-    while True:
-        contrasena = getpass.getpass("Contraseña: ")
-        if not validar_contrasena(contrasena):
-            print("❌ Debe tener 6 caracteres, 1 mayúscula y 1 número.\n")
-            continue
+    return False
 
-        repetir = getpass.getpass("Repite contraseña: ")
-        if repetir != contrasena:
-            print("❌ No coinciden.\n")
-            continue
-        break
+# ---------------- REGISTRO ----------------
+def registrar(correo, contrasena):
+    """
+    Registro para interfaz gráfica.
+    Devuelve (exito, mensaje)
+    exito -> True si se registró correctamente
+    mensaje -> texto explicativo
+    """
+    usuarios = cargar_usuarios()
+
+    if not validar_correo(correo):
+        return False, "Correo inválido."
+    if correo in usuarios:
+        return False, "Correo ya registrado."
+    if not validar_contrasena(contrasena):
+        return False, "Contraseña inválida. Debe tener al menos 6 caracteres, 1 mayúscula y 1 número."
 
     usuarios[correo] = hash_contrasena(contrasena)
     guardar_usuarios(usuarios)
-    print("✅ Registro exitoso.")
-    pass
-
-def login():
-    print("\n--- LOGIN ---")
-
-    usuarios = cargar_usuarios()
-
-    correo = input("Correo: ").strip()
-
-    if correo not in usuarios:
-        print("❌ El correo no existe.")
-        return False
-
-    contrasena = getpass.getpass("Contraseña: ")
-
-    if verificar_contrasena(contrasena, usuarios[correo]):
-        print("✅ Inicio de sesión exitoso.")
-        return True
-
-    print("❌ Contraseña incorrecta.")
-    return False
-    pass
+    return True, "Registro exitoso."
