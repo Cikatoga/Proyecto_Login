@@ -1,0 +1,35 @@
+{
+    "carlos@gmail.com": {
+        "nombre": "Carlos",
+        "edad": "30",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Terror"
+        ]
+    },
+    "hola2@gmail.com": {
+        "nombre": "Cindy",
+        "edad": "30",
+        "genero": "Femenino",
+        "cine_favorito": []
+    },
+    "lp@gmail.com": {
+        "nombre": "Laura",
+        "fecha_nacimiento": "14/09/1995",
+        "genero": "Femenino",
+        "cine_favorito": [],
+        "preferencia_tipo": "Quiero ver una Serie \ud83d\udcfa",
+        "tiempo_disponible": "1 hora"
+    },
+    "esteman@gmail.com": {
+        "nombre": "Esteban",
+        "fecha_nacimiento": "09/01/1984",
+        "genero": "Masculino"
+    },
+    "carlitos@gmail.com": {
+        "nombre": "Carlos",
+        "fecha_nacimiento": "16/04/1995",
+        "genero": "Masculino"
+    }
+}
