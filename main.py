@@ -41,9 +41,12 @@ def menu_chuck():
         print(", ".join(categorias))
     
     elif opcion == "4":
-        frase = obtener_frase_scraping()
-        print("\nFrase obtenida por scraping:")
-        print(frase)
+        original, traducida = obtener_frase_scraping()
+        print("\nFrase original:")
+        print(original)
+        print("\nFrase traducida al español:")
+        print(traducida)
+
 
 
     elif opcion == "5":
