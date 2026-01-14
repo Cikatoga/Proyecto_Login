@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import requests
 import webbrowser
-#from PIL import Image
+from PIL import Image
 from io import BytesIO
 
 from auth_logic import validar_password, registrar_usuario, verificar_login, obtener_perfil, guardar_perfil
@@ -121,8 +121,8 @@ class App(ctk.CTk):
             if peli.get("Poster") != "N/A":
                 try:
                     res_img = requests.get(peli["Poster"], timeout=5)
-                    #ctk_img = ctk.CTkImage(Image.open(BytesIO(res_img.content)), size=(150, 210))
-                    #ctk.CTkLabel(card, image=ctk_img, text="").pack(pady=10)
+                    ctk_img = ctk.CTkImage(Image.open(BytesIO(res_img.content)), size=(150, 210))
+                    ctk.CTkLabel(card, image=ctk_img, text="").pack(pady=10)
                 except: pass
             
             ctk.CTkLabel(card, text=peli["Title"], font=("Roboto", 18, "bold"), text_color="#6200ee", wraplength=250).pack()
