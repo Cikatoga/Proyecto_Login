@@ -1,5 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+import time
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
@@ -51,10 +55,7 @@ def obtener_disponibilidad_trailer(titulo):
         return plataformas, trailer
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-import time
+
 
 def obtener_trailer_youtube(titulo):
     query = titulo + " trailer español"
