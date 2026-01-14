@@ -19,22 +19,31 @@ def validar_password(password, confirm_password):
     return True, "Ok"
 
 def registrar_usuario(email, password):
+    email = email.strip().lower()  # limpiar espacios y normalizar
     datos = {}
+
     if os.path.exists(DB_FILE):
         with open(DB_FILE, "r") as file:
-            try: datos = json.load(file)
-            except: datos = {}
+            try:
+                datos = json.load(file)
+            except json.JSONDecodeError:
+                datos = {}
 
+    # Verificar si el correo ya existe
     if email in datos:
-        return False, "El correo ya está registrado"
+        return False, "El correo ya está registrado"  # ⚠️ Esto es clave: retornar False
 
+    # Si no existe, crear hash de la contraseña
     salt = bcrypt.gensalt()
     hash_pw = bcrypt.hashpw(password.encode('utf-8'), salt)
     datos[email] = hash_pw.decode('utf-8')
-    
+
+    # Guardar cambios
     with open(DB_FILE, "w") as file:
         json.dump(datos, file, indent=4)
+
     return True, "Registro exitoso"
+
 
 def verificar_login(email, password):
     if not os.path.exists(DB_FILE):

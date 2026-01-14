@@ -31,6 +31,7 @@ def buscar_recomendaciones(generos, seleccion_año, año_manual, tipo_opc):
 
     url_search = f"http://www.omdbapi.com/?s={genero_elegido}&y={año_api}&type={tipo_busqueda}&apikey={API_KEY}"
     
+    
     try:
         res = requests.get(url_search, timeout=5).json()
         if res.get("Response") == "True":
@@ -40,24 +41,29 @@ def buscar_recomendaciones(generos, seleccion_año, año_manual, tipo_opc):
             for item in seleccionados:
                 url_det = f"http://www.omdbapi.com/?i={item['imdbID']}&apikey={API_KEY}"
                 peli_data = requests.get(url_det).json()
-                plataformas, trailer = obtener_disponibilidad_trailer(peli_data['Title'])
+                
+                # Usar el título original en inglés para scrapping
+                titulo_original = peli_data.get("Title", "")
+                plataformas, trailer = obtener_disponibilidad_trailer(titulo_original)
+                
                 peli_data['info_streaming'] = plataformas
                 peli_data['trailer'] = trailer
                 detalles.append(peli_data)
+
             return True, detalles
         return False, "No se encontraron recomendaciones."
     except:
         return False, "Error de red."
 
 def buscar_pelicula_especifica(titulo):
-    from scraping_logic import obtener_disponibilidad
     url = f"http://www.omdbapi.com/?t={titulo.replace(' ', '+')}&apikey={API_KEY}"
     try:
         peli_data = requests.get(url, timeout=5).json()
         if peli_data.get("Response") == "True":
-            plataformas, trailer = obtener_disponibilidad_trailer(peli_data['Title'])
+            plataformas, trailer = obtener_disponibilidad_trailer(peli_data.get("Title", ""))
             peli_data['info_streaming'] = plataformas
             peli_data['trailer'] = trailer
+
 
             return True, peli_data
         return False, "No encontrada."

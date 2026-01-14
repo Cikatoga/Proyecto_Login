@@ -128,29 +128,33 @@ class App(ctk.CTk):
             ctk.CTkLabel(card, text=peli["Title"], font=("Roboto", 18, "bold"), text_color="#6200ee", wraplength=250).pack()
             ctk.CTkLabel(card, text=f"⭐ IMDB: {peli.get('imdbRating', 'N/A')} | 📅 {peli.get('Year', 'N/A')}", font=("Roboto", 11, "italic")).pack()
             # --- PLATAFORMAS DE STREAMING (SCRAPING) ---
-            if isinstance(peli.get("info_streaming"), dict):
-                for plataforma, link in peli["info_streaming"].items():
-                    ctk.CTkButton(
+            def mostrar_disponibilidad():
+                if peli["info_streaming"]:
+                    for plataforma, link in peli["info_streaming"].items():
+                        ctk.CTkButton(
+                            card,
+                            text=f"Ver en {plataforma}",
+                            command=lambda u=link: self.abrir_enlace(u)
+                        ).pack(pady=2)
+                else:
+                    ctk.CTkLabel(
                         card,
-                        text=f"Ver en {plataforma}",
-                        fg_color="#D81E5B",
-                        command=lambda u=link: self.abrir_enlace(u)
-                    ).pack(pady=2)
-            else:
-                ctk.CTkLabel(card, text="Streaming no disponible").pack(pady=5)
-
-            # --- TRÁILER DIRECTO (SCRAPING) ---
-            if peli.get("trailer"):
-                ctk.CTkButton(
-                    card,
-                    text="📺 Ver Tráiler",
-                    fg_color="#FF0000",
-                    command=lambda u=peli["trailer"]: self.abrir_enlace(u)
-                ).pack(pady=5)
+                        text="❌ No disponible en ninguna plataforma",
+                        text_color="gray"
+                    ).pack(pady=5)
 
             ctk.CTkLabel(card, text=peli.get("Plot", "Sin sinopsis."), font=("Roboto", 11), text_color="#444444", wraplength=280).pack(pady=10)
+            
+            ctk.CTkButton(card,text="🎬 Comprobar disponibilidad",fg_color="#444",command=mostrar_disponibilidad).pack(pady=5)
+            trailer_url = peli.get("trailer")   
+            if not trailer_url:
+                # fallback a búsqueda de YouTube
+                trailer_url = "https://www.youtube.com/results?search_query=" + peli["Title"].replace(" ", "+") + "+trailer"
 
-        ctk.CTkButton(self.main_container, text="Volver 🔄", command=lambda: self.mostrar_experiencia_diaria(self.nombre_usuario), fg_color="#6200ee", width=280).pack(pady=10)
+            ctk.CTkButton(card,text="📺 Ver Tráiler",command=lambda u=trailer_url: self.abrir_enlace(u)).pack(pady=5)
+
+        #ctk.CTkButton(self.main_container, text="Volver 🔄", command=lambda: self.mostrar_experiencia_diaria(self.nombre_usuario), fg_color="#6200ee", width=280).pack(pady=10)
+        ctk.CTkButton(self.main_container, text="⬅ Volver", fg_color="#6200ee", width=280, command=lambda: self.mostrar_experiencia_diaria(self.nombre_usuario)).pack(pady=15)
 
     def logic_login(self):
         email, pw = self.email_ent.get(), self.pw_ent.get()
@@ -161,14 +165,19 @@ class App(ctk.CTk):
             if p and p.get("nombre"): self.mostrar_experiencia_diaria(p["nombre"])
             else: self.mostrar_datos_personales()
         else: self.error_lbl.configure(text=msg)
-
+        
     def logic_registro(self):
         e, p, c = self.email_ent.get(), self.pw_ent.get(), self.pw_conf_ent.get()
         valido, msg = validar_password(p, c)
+
         if valido:
-            registrar_usuario(e, p)
-            self.mostrar_login()
-        else: self.error_lbl.configure(text=msg)
+            exito, msg = registrar_usuario(e, p)
+            if exito:
+                self.mostrar_login()  # Solo si se registró correctamente
+            else:
+                self.error_lbl.configure(text=msg)  # Mostrar mensaje: correo ya registrado
+        else:
+            self.error_lbl.configure(text=msg)  # Mostrar mensaje de validación de contraseña
 
 if __name__ == "__main__":
     app = App()
