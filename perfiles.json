@@ -31,5 +31,31 @@
         "nombre": "Carlos",
         "fecha_nacimiento": "16/04/1995",
         "genero": "Masculino"
+    },
+    "iker1@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/08/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Comedia",
+            "Romance"
+        ]
+    },
+    "iker3@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "05/03/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Terror"
+        ]
+    },
+    "iker2@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/06/2004",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Drama"
+        ]
     }
 }

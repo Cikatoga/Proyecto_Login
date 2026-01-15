@@ -3,6 +3,7 @@ import requests
 import webbrowser
 from PIL import Image
 from io import BytesIO
+from tkcalendar import DateEntry
 
 from auth_logic import validar_password, registrar_usuario, verificar_login, obtener_perfil, guardar_perfil
 from api_logic import buscar_recomendaciones, buscar_pelicula_especifica
@@ -94,6 +95,105 @@ class App(ctk.CTk):
         ctk.CTkButton(self.main_container, text="Dime qué ver ✨", fg_color="#03dac6", text_color="#121212", font=("Roboto", 14, "bold"), command=self.ejecutar_recomendacion, width=280).pack(pady=20)
         ctk.CTkButton(self.main_container, text="Cerrar Sesión 🚪", fg_color="transparent", text_color="#6200ee", command=self.cerrar_sesion).pack(pady=10)
 
+    def mostrar_datos_personales(self):
+        self.limpiar_frame()
+
+        ctk.CTkLabel(self.main_container, text="Cuéntanos sobre ti 🎬", font=("Roboto", 26, "bold"), text_color="#1a1a1a" ).pack(pady=15)
+
+        self.nombre_ent = ctk.CTkEntry( self.main_container, placeholder_text="Tu nombre", width=280)
+        self.nombre_ent.pack(pady=8)
+
+        ctk.CTkLabel(
+            self.main_container,
+            text="Fecha de nacimiento",
+            font=("Roboto", 13, "bold")
+        ).pack(pady=(10, 2))
+
+                # --- FECHA DE NACIMIENTO ---
+        frame_fecha = ctk.CTkFrame(self.main_container, fg_color="transparent")
+        frame_fecha.pack(pady=8)
+
+        # Día
+        self.dia_opc = ctk.CTkOptionMenu(
+            frame_fecha,
+            values=[f"{d:02d}" for d in range(1, 32)],
+            width=70
+        )
+        self.dia_opc.pack(side="left", padx=4)
+
+        # Mes (nombre)
+        self.meses = [
+            "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+            "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+        ]
+
+        self.mes_opc = ctk.CTkOptionMenu(
+            frame_fecha,
+            values=self.meses,
+            width=130
+        )
+        self.mes_opc.pack(side="left", padx=4)
+
+        # Año
+        self.año_opc = ctk.CTkOptionMenu(
+            frame_fecha,
+            values=[str(y) for y in range(2025, 1900, -1)],
+            width=90
+        )
+        self.año_opc.pack(side="left", padx=4)
+
+
+
+        self.genero_opc = ctk.CTkOptionMenu( self.main_container, values=["Masculino", "Femenino", "Otro"], width=280, fg_color="#6200ee")
+        self.genero_opc.pack(pady=8)
+
+        ctk.CTkLabel(self.main_container, text="¿Qué géneros te gustan?", font=("Roboto", 14, "bold")).pack(pady=(15, 5))
+
+        self.generos_pref = {}
+        generos = ["Acción", "Comedia", "Drama", "Terror", "Sci-Fi", "Romance", "Documental", "Animación"]
+
+        for g in generos:
+            var = ctk.StringVar(value="off")
+            ctk.CTkCheckBox(self.main_container, text=g, variable=var, onvalue=g, offvalue="off").pack(anchor="w", padx=130)
+            self.generos_pref[g] = var
+
+        self.error_lbl = ctk.CTkLabel(self.main_container, text="", text_color="#ff5555")
+        self.error_lbl.pack(pady=5)
+
+        ctk.CTkButton(
+            self.main_container,
+            text="Guardar y continuar ➡",
+            fg_color="#03dac6",
+            text_color="#121212",
+            font=("Roboto", 14, "bold"),
+            command=self.guardar_datos_personales,
+            width=280
+        ).pack(pady=20)
+
+    def guardar_datos_personales(self):
+        nombre = self.nombre_ent.get().strip()
+
+        dia = self.dia_opc.get()
+        mes_nombre = self.mes_opc.get()
+        año = self.año_opc.get()
+        mes_num = f"{self.meses.index(mes_nombre) + 1:02d}"
+        fecha = f"{dia}/{mes_num}/{año}"
+
+        genero = self.genero_opc.get()
+        cine_favorito = [v.get() for v in self.generos_pref.values() if v.get() != "off"]
+
+        if not nombre or not fecha:
+            self.error_lbl.configure(text="Completa todos los campos")
+            return
+
+        datos_perfil = {"nombre": nombre, "fecha_nacimiento": fecha, "genero": genero, "cine_favorito": cine_favorito}
+
+        guardar_perfil(self.usuario_actual, datos_perfil)
+
+        # Entrar a la app principal
+        self.mostrar_experiencia_diaria(nombre)
+
+
     def toggle_año_manual(self, seleccion):
         if seleccion == "Ingresar año manualmente": self.año_manual_ent.pack(pady=5)
         else: self.año_manual_ent.pack_forget()
@@ -111,49 +211,64 @@ class App(ctk.CTk):
 
     def mostrar_resultados(self, lista):
         self.limpiar_frame()
+        
         scroll = ctk.CTkScrollableFrame(self.main_container, fg_color="transparent", height=650)
         scroll.pack(fill="both", expand=True, padx=10)
 
         for peli in lista:
             card = ctk.CTkFrame(scroll, fg_color="#f8f8f8", corner_radius=15, border_width=1, border_color="#eeeeee")
             card.pack(pady=15, fill="x", padx=5)
-            
+
+            # Poster, título, rating, sinopsis...
             if peli.get("Poster") != "N/A":
                 try:
                     res_img = requests.get(peli["Poster"], timeout=5)
                     ctk_img = ctk.CTkImage(Image.open(BytesIO(res_img.content)), size=(150, 210))
                     ctk.CTkLabel(card, image=ctk_img, text="").pack(pady=10)
-                except: pass
-            
+                except: 
+                    pass
             ctk.CTkLabel(card, text=peli["Title"], font=("Roboto", 18, "bold"), text_color="#6200ee", wraplength=250).pack()
             ctk.CTkLabel(card, text=f"⭐ IMDB: {peli.get('imdbRating', 'N/A')} | 📅 {peli.get('Year', 'N/A')}", font=("Roboto", 11, "italic")).pack()
-            # --- PLATAFORMAS DE STREAMING (SCRAPING) ---
-            def mostrar_disponibilidad():
-                if peli["info_streaming"]:
-                    for plataforma, link in peli["info_streaming"].items():
-                        ctk.CTkButton(
-                            card,
-                            text=f"Ver en {plataforma}",
-                            command=lambda u=link: self.abrir_enlace(u)
-                        ).pack(pady=2)
-                else:
-                    ctk.CTkLabel(
-                        card,
-                        text="❌ No disponible en ninguna plataforma",
-                        text_color="gray"
-                    ).pack(pady=5)
-
             ctk.CTkLabel(card, text=peli.get("Plot", "Sin sinopsis."), font=("Roboto", 11), text_color="#444444", wraplength=280).pack(pady=10)
-            
-            ctk.CTkButton(card,text="🎬 Comprobar disponibilidad",fg_color="#444",command=mostrar_disponibilidad).pack(pady=5)
-            trailer_url = peli.get("trailer")   
+
+            # --- Botón Comprobar disponibilidad ---
+            # Este va primero
+            def toggle_disponibilidad(c_frame=None, p=peli):
+                # Limpiar botones si ya existen
+                if c_frame.winfo_children():
+                    for w in c_frame.winfo_children():
+                        w.destroy()
+                else:
+                    # Crear botones de streaming
+                    if p.get("info_streaming"):
+                        for plataforma, link in p["info_streaming"].items():
+                            ctk.CTkButton(
+                                c_frame,
+                                text=f"Ver en {plataforma}",
+                                command=lambda u=link: self.abrir_enlace(u),
+                                width=200,
+                                fg_color="#6200ee",
+                                text_color="white"
+                            ).pack(pady=2)
+                    else:
+                        ctk.CTkLabel(c_frame, text="❌ No disponible en ninguna plataforma", text_color="gray").pack(pady=2)
+
+            check_btn = ctk.CTkButton(card, text="🎬 Comprobar disponibilidad", fg_color="#444")
+            check_btn.pack(pady=5)
+
+            # --- Frame vacío para botones de streaming (justo debajo del botón) ---
+            streaming_frame = ctk.CTkFrame(card, fg_color="transparent")
+            streaming_frame.pack(pady=0)
+            # Ahora enlazamos el botón para alternar
+            check_btn.configure(command=lambda c_frame=streaming_frame, p=peli: toggle_disponibilidad(c_frame, p))
+
+            # --- Botón Ver Tráiler (siempre debajo del frame) ---
+            trailer_url = peli.get("trailer")
             if not trailer_url:
-                # fallback a búsqueda de YouTube
                 trailer_url = "https://www.youtube.com/results?search_query=" + peli["Title"].replace(" ", "+") + "+trailer"
+            ctk.CTkButton(card, text="📺 Ver Tráiler", command=lambda u=trailer_url: self.abrir_enlace(u), width=200, fg_color="#03dac6", text_color="#121212").pack(pady=5)
 
-            ctk.CTkButton(card,text="📺 Ver Tráiler",command=lambda u=trailer_url: self.abrir_enlace(u)).pack(pady=5)
-
-        #ctk.CTkButton(self.main_container, text="Volver 🔄", command=lambda: self.mostrar_experiencia_diaria(self.nombre_usuario), fg_color="#6200ee", width=280).pack(pady=10)
+        # --- Botón volver ---
         ctk.CTkButton(self.main_container, text="⬅ Volver", fg_color="#6200ee", width=280, command=lambda: self.mostrar_experiencia_diaria(self.nombre_usuario)).pack(pady=15)
 
     def logic_login(self):
@@ -162,10 +277,13 @@ class App(ctk.CTk):
         if exito:
             self.usuario_actual = email
             p = obtener_perfil(email)
-            if p and p.get("nombre"): self.mostrar_experiencia_diaria(p["nombre"])
-            else: self.mostrar_datos_personales()
-        else: self.error_lbl.configure(text=msg)
-        
+            if p and p.get("nombre"): 
+                self.mostrar_experiencia_diaria(p["nombre"])
+            else: 
+                self.mostrar_datos_personales()
+        else: 
+            self.error_lbl.configure(text=msg)
+
     def logic_registro(self):
         e, p, c = self.email_ent.get(), self.pw_ent.get(), self.pw_conf_ent.get()
         valido, msg = validar_password(p, c)
