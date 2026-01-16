@@ -1,0 +1,262 @@
+{
+    "carlos@gmail.com": {
+        "nombre": "Carlos",
+        "edad": "30",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Terror"
+        ]
+    },
+    "hola2@gmail.com": {
+        "nombre": "Cindy",
+        "edad": "30",
+        "genero": "Femenino",
+        "cine_favorito": []
+    },
+    "lp@gmail.com": {
+        "nombre": "Laura",
+        "fecha_nacimiento": "14/09/1995",
+        "genero": "Femenino",
+        "cine_favorito": [],
+        "preferencia_tipo": "Quiero ver una Serie \ud83d\udcfa",
+        "tiempo_disponible": "1 hora"
+    },
+    "esteman@gmail.com": {
+        "nombre": "Esteban",
+        "fecha_nacimiento": "09/01/1984",
+        "genero": "Masculino"
+    },
+    "carlitos@gmail.com": {
+        "nombre": "Carlos",
+        "fecha_nacimiento": "16/04/1995",
+        "genero": "Masculino"
+    },
+    "iker1@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/08/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Comedia",
+            "Romance"
+        ]
+    },
+    "iker3@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "05/03/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Terror"
+        ]
+    },
+    "iker2@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/06/2004",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Drama"
+        ]
+    },
+    "holiwis@gmail.com": {
+        "nombre": "dfsd",
+        "fecha_nacimiento": "01/01/2025",
+        "genero": "Masculino",
+        "cine_favorito": [],
+        "favoritos": [
+            {
+                "Title": "Toy Story of Terror",
+                "Year": "2013",
+                "Rated": "TV-G",
+                "Released": "16 Oct 2013",
+                "Runtime": "22 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Angus MacLane",
+                "Writer": "Angus MacLane",
+                "Actors": "Tom Hanks, Tim Allen, Joan Cusack",
+                "Plot": "The toys go on a road trip, when an unexpected event leads them to a roadside motel, after one of the toys goes missing, the others find themselves caught up in a mysterious, monstrous, and terrifying sequence of events that must be solved before they all suffer the same fate",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "6 wins & 10 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNDU5MWI4ZTctYTdlNi00MmQ1LTkzZGUtZmYxYWMyNmQ4MjdiXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.4/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "94%"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "7.4",
+                "imdbVotes": "19,189",
+                "imdbID": "tt2446040",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null,
+                "mi_puntuacion": 5
+            },
+            {
+                "Title": "Finding Nemo",
+                "Year": "2003",
+                "Rated": "G",
+                "Released": "30 May 2003",
+                "Runtime": "100 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Stanton, Lee Unkrich",
+                "Writer": "Andrew Stanton, Bob Peterson, David Reynolds",
+                "Actors": "Albert Brooks, Ellen DeGeneres, Alexander Gould",
+                "Plot": "A clown fish named Marlin lives in the Great Barrier Reef and loses his son, Nemo, after he ventures into the open sea, despite his father's constant warnings about many of the ocean's dangers. Nemo is abducted by a boat and netted up and sent to a dentist's office in Sydney. While Marlin ventures off to try to retrieve Nemo, Marlin meets a fish named Dory, a blue tang suffering from short-term memory loss. The companions travel a great distance, encountering various dangerous sea creatures such as sharks, anglerfish and jellyfish, in order to rescue Nemo from the dentist's office, which is situated by Sydney Harbour. While the two are searching the ocean far and wide, Nemo and the other sea animals in the dentist's fish tank plot a way to return to the sea to live their lives free again.",
+                "Language": "English, Japanese, Russian",
+                "Country": "United States, Japan, Australia, Kazakhstan, Armenia",
+                "Awards": "Won 1 Oscar. 49 wins & 63 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.2/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "99%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "90/100"
+                    }
+                ],
+                "Metascore": "90",
+                "imdbRating": "8.2",
+                "imdbVotes": "1,191,105",
+                "imdbID": "tt0266543",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$380,843,261",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Shrek",
+                "Year": "2001",
+                "Rated": "PG",
+                "Released": "18 May 2001",
+                "Runtime": "90 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Adamson, Vicky Jenson",
+                "Writer": "William Steig, Ted Elliott, Terry Rossio",
+                "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz",
+                "Plot": "When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "Won 1 Oscar. 40 wins & 60 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "88%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "84/100"
+                    }
+                ],
+                "Metascore": "84",
+                "imdbRating": "7.9",
+                "imdbVotes": "797,094",
+                "imdbID": "tt0126029",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$268,698,241",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Disney+": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fdisneyplus.bn5x.net%2Fc%2F1206980%2F705874%2F9358%3Fu%3Dhttps%253A%252F%252Fwww.disneyplus.com%252Fes-es%252Fbrowse%252Fentity-fbf0d88f-babb-4c18-beff-b84ac5236314%26subId3%3Djustappsvod&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJhMGEzZDUzZS1kMmU0LTRhZTQtYWU3YS02ZmNiMzg5MTY2MTkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2ludGVyYWN0aW9uX2NvbnRleHQvanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiaXNBY3RpdmUiOnRydWV9fSx7InNjaGVtYSI6ImlnbHU6Y29tLmp1c3R3YXRjaC9wYWdlX3R5cGVfY29udGV4dC9qc29uc2NoZW1hLzEtMS0wIiwiZGF0YSI6eyJwYWdlVHlwZSI6Ik1PVklFIiwiYXBwTG9jYWxlIjoiSU4iLCJhcHBMYW5ndWFnZSI6ImVuIn19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2NsaWNrb3V0X2NvbnRleHQvanNvbnNjaGVtYS8xLTEwLTAiLCJkYXRhIjp7ImRlZXBsaW5rRmFsbGJhY2siOiJodHRwczovL2Rpc25leXBsdXMuYm41eC5uZXQvYy8xMjA2OTgwLzcwNTg3NC85MzU4P3U9aHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZGlzbmV5cGx1cy5jb20lMjUyRmVzLWVzJTI1MkZicm93c2UlMjUyRmVudGl0eS1mYmYwZDg4Zi1iYWJiLTRjMTgtYmVmZi1iODRhYzUyMzYzMTQmc3ViSWQzPWp1c3RhcHBzdm9kIiwicHJvdmlkZXIiOiJEaXNuZXkgUGx1cyIsInByb3ZpZGVySWQiOjMzNywibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvdGl0bGVfY29udGV4dC9qc29uc2NoZW1hLzEtMy0wIiwiZGF0YSI6eyJ0aXRsZUlkIjo1MDMxNCwib2JqZWN0VHlwZSI6Im1vdmllIiwiandSYXdFbnRpdHlJZCI6InRtNTAzMTQiLCJqd0VudGl0eUlkIjoidG01MDMxNCJ9fV19",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.dab0a83d-a456-2887-7423-48e96de4e8c7&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJjNjFiNTExMi1hODgxLTRmNmQtOGIwYy04OTA3NDA2YThmMGQifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLmRhYjBhODNkLWE0NTYtMjg4Ny03NDIzLTQ4ZTk2ZGU0ZThjNyIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoic2QiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6NTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6Mzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60020686&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzMmU5NDcxZS0yMTdjLTQ5ZDUtODNkNi1lYmIzNTYxOGM4NzkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDIwNjg2IiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ"
+                },
+                "trailer": "https://www.youtube.com/watch?v=B88JfTyJ1Fw&pp=ygUWU2hyZWsgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            }
+        ],
+        "historial": [
+            "Shrek",
+            "Nemo",
+            "Adam Sandler"
+        ],
+        "watchlist": [
+            {
+                "Title": "Shrek",
+                "Year": "2001",
+                "Rated": "PG",
+                "Released": "18 May 2001",
+                "Runtime": "90 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Adamson, Vicky Jenson",
+                "Writer": "William Steig, Ted Elliott, Terry Rossio",
+                "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz",
+                "Plot": "When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "Won 1 Oscar. 40 wins & 60 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "88%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "84/100"
+                    }
+                ],
+                "Metascore": "84",
+                "imdbRating": "7.9",
+                "imdbVotes": "797,094",
+                "imdbID": "tt0126029",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$268,698,241",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Disney+": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fdisneyplus.bn5x.net%2Fc%2F1206980%2F705874%2F9358%3Fu%3Dhttps%253A%252F%252Fwww.disneyplus.com%252Fes-es%252Fbrowse%252Fentity-fbf0d88f-babb-4c18-beff-b84ac5236314%26subId3%3Djustappsvod&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJhMGEzZDUzZS1kMmU0LTRhZTQtYWU3YS02ZmNiMzg5MTY2MTkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2ludGVyYWN0aW9uX2NvbnRleHQvanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiaXNBY3RpdmUiOnRydWV9fSx7InNjaGVtYSI6ImlnbHU6Y29tLmp1c3R3YXRjaC9wYWdlX3R5cGVfY29udGV4dC9qc29uc2NoZW1hLzEtMS0wIiwiZGF0YSI6eyJwYWdlVHlwZSI6Ik1PVklFIiwiYXBwTG9jYWxlIjoiSU4iLCJhcHBMYW5ndWFnZSI6ImVuIn19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2NsaWNrb3V0X2NvbnRleHQvanNvbnNjaGVtYS8xLTEwLTAiLCJkYXRhIjp7ImRlZXBsaW5rRmFsbGJhY2siOiJodHRwczovL2Rpc25leXBsdXMuYm41eC5uZXQvYy8xMjA2OTgwLzcwNTg3NC85MzU4P3U9aHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZGlzbmV5cGx1cy5jb20lMjUyRmVzLWVzJTI1MkZicm93c2UlMjUyRmVudGl0eS1mYmYwZDg4Zi1iYWJiLTRjMTgtYmVmZi1iODRhYzUyMzYzMTQmc3ViSWQzPWp1c3RhcHBzdm9kIiwicHJvdmlkZXIiOiJEaXNuZXkgUGx1cyIsInByb3ZpZGVySWQiOjMzNywibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvdGl0bGVfY29udGV4dC9qc29uc2NoZW1hLzEtMy0wIiwiZGF0YSI6eyJ0aXRsZUlkIjo1MDMxNCwib2JqZWN0VHlwZSI6Im1vdmllIiwiandSYXdFbnRpdHlJZCI6InRtNTAzMTQiLCJqd0VudGl0eUlkIjoidG01MDMxNCJ9fV19",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.dab0a83d-a456-2887-7423-48e96de4e8c7&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJjNjFiNTExMi1hODgxLTRmNmQtOGIwYy04OTA3NDA2YThmMGQifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLmRhYjBhODNkLWE0NTYtMjg4Ny03NDIzLTQ4ZTk2ZGU0ZThjNyIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoic2QiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6NTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6Mzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60020686&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzMmU5NDcxZS0yMTdjLTQ5ZDUtODNkNi1lYmIzNTYxOGM4NzkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDIwNjg2IiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ"
+                },
+                "trailer": "https://www.youtube.com/watch?v=B88JfTyJ1Fw&pp=ygUWU2hyZWsgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            }
+        ],
+        "comentarios": {
+            "tt0126029": "La quiero ver ma\u00f1ana"
+        }
+    },
+    "mecano@gmail.com": {
+        "nombre": "Mecano",
+        "fecha_nacimiento": "14/08/2004",
+        "genero": "Femenino",
+        "cine_favorito": [
+            "Drama",
+            "Sci-Fi",
+            "Romance"
+        ]
+    }
+}
