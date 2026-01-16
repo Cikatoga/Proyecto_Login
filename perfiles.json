@@ -1,0 +1,713 @@
+{
+    "carlos@gmail.com": {
+        "nombre": "Carlos",
+        "edad": "30",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Terror"
+        ]
+    },
+    "hola2@gmail.com": {
+        "nombre": "Cindy",
+        "edad": "30",
+        "genero": "Femenino",
+        "cine_favorito": []
+    },
+    "lp@gmail.com": {
+        "nombre": "Laura",
+        "fecha_nacimiento": "14/09/1995",
+        "genero": "Femenino",
+        "cine_favorito": [],
+        "preferencia_tipo": "Quiero ver una Serie \ud83d\udcfa",
+        "tiempo_disponible": "1 hora"
+    },
+    "esteman@gmail.com": {
+        "nombre": "Esteban",
+        "fecha_nacimiento": "09/01/1984",
+        "genero": "Masculino"
+    },
+    "carlitos@gmail.com": {
+        "nombre": "Carlos",
+        "fecha_nacimiento": "16/04/1995",
+        "genero": "Masculino"
+    },
+    "iker1@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/08/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Comedia",
+            "Romance"
+        ]
+    },
+    "iker3@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "05/03/2005",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Terror"
+        ]
+    },
+    "iker2@gmail.com": {
+        "nombre": "Iker",
+        "fecha_nacimiento": "04/06/2004",
+        "genero": "Masculino",
+        "cine_favorito": [
+            "Acci\u00f3n",
+            "Drama"
+        ]
+    },
+    "holiwis@gmail.com": {
+        "nombre": "dfsd",
+        "fecha_nacimiento": "01/01/2025",
+        "genero": "Masculino",
+        "cine_favorito": [],
+        "favoritos": [
+            {
+                "Title": "Toy Story of Terror",
+                "Year": "2013",
+                "Rated": "TV-G",
+                "Released": "16 Oct 2013",
+                "Runtime": "22 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Angus MacLane",
+                "Writer": "Angus MacLane",
+                "Actors": "Tom Hanks, Tim Allen, Joan Cusack",
+                "Plot": "The toys go on a road trip, when an unexpected event leads them to a roadside motel, after one of the toys goes missing, the others find themselves caught up in a mysterious, monstrous, and terrifying sequence of events that must be solved before they all suffer the same fate",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "6 wins & 10 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNDU5MWI4ZTctYTdlNi00MmQ1LTkzZGUtZmYxYWMyNmQ4MjdiXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.4/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "94%"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "7.4",
+                "imdbVotes": "19,189",
+                "imdbID": "tt2446040",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null,
+                "mi_puntuacion": 5
+            },
+            {
+                "Title": "Finding Nemo",
+                "Year": "2003",
+                "Rated": "G",
+                "Released": "30 May 2003",
+                "Runtime": "100 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Stanton, Lee Unkrich",
+                "Writer": "Andrew Stanton, Bob Peterson, David Reynolds",
+                "Actors": "Albert Brooks, Ellen DeGeneres, Alexander Gould",
+                "Plot": "A clown fish named Marlin lives in the Great Barrier Reef and loses his son, Nemo, after he ventures into the open sea, despite his father's constant warnings about many of the ocean's dangers. Nemo is abducted by a boat and netted up and sent to a dentist's office in Sydney. While Marlin ventures off to try to retrieve Nemo, Marlin meets a fish named Dory, a blue tang suffering from short-term memory loss. The companions travel a great distance, encountering various dangerous sea creatures such as sharks, anglerfish and jellyfish, in order to rescue Nemo from the dentist's office, which is situated by Sydney Harbour. While the two are searching the ocean far and wide, Nemo and the other sea animals in the dentist's fish tank plot a way to return to the sea to live their lives free again.",
+                "Language": "English, Japanese, Russian",
+                "Country": "United States, Japan, Australia, Kazakhstan, Armenia",
+                "Awards": "Won 1 Oscar. 49 wins & 63 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.2/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "99%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "90/100"
+                    }
+                ],
+                "Metascore": "90",
+                "imdbRating": "8.2",
+                "imdbVotes": "1,191,105",
+                "imdbID": "tt0266543",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$380,843,261",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Shrek",
+                "Year": "2001",
+                "Rated": "PG",
+                "Released": "18 May 2001",
+                "Runtime": "90 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Adamson, Vicky Jenson",
+                "Writer": "William Steig, Ted Elliott, Terry Rossio",
+                "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz",
+                "Plot": "When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "Won 1 Oscar. 40 wins & 60 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "88%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "84/100"
+                    }
+                ],
+                "Metascore": "84",
+                "imdbRating": "7.9",
+                "imdbVotes": "797,094",
+                "imdbID": "tt0126029",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$268,698,241",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Disney+": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fdisneyplus.bn5x.net%2Fc%2F1206980%2F705874%2F9358%3Fu%3Dhttps%253A%252F%252Fwww.disneyplus.com%252Fes-es%252Fbrowse%252Fentity-fbf0d88f-babb-4c18-beff-b84ac5236314%26subId3%3Djustappsvod&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJhMGEzZDUzZS1kMmU0LTRhZTQtYWU3YS02ZmNiMzg5MTY2MTkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2ludGVyYWN0aW9uX2NvbnRleHQvanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiaXNBY3RpdmUiOnRydWV9fSx7InNjaGVtYSI6ImlnbHU6Y29tLmp1c3R3YXRjaC9wYWdlX3R5cGVfY29udGV4dC9qc29uc2NoZW1hLzEtMS0wIiwiZGF0YSI6eyJwYWdlVHlwZSI6Ik1PVklFIiwiYXBwTG9jYWxlIjoiSU4iLCJhcHBMYW5ndWFnZSI6ImVuIn19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2NsaWNrb3V0X2NvbnRleHQvanNvbnNjaGVtYS8xLTEwLTAiLCJkYXRhIjp7ImRlZXBsaW5rRmFsbGJhY2siOiJodHRwczovL2Rpc25leXBsdXMuYm41eC5uZXQvYy8xMjA2OTgwLzcwNTg3NC85MzU4P3U9aHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZGlzbmV5cGx1cy5jb20lMjUyRmVzLWVzJTI1MkZicm93c2UlMjUyRmVudGl0eS1mYmYwZDg4Zi1iYWJiLTRjMTgtYmVmZi1iODRhYzUyMzYzMTQmc3ViSWQzPWp1c3RhcHBzdm9kIiwicHJvdmlkZXIiOiJEaXNuZXkgUGx1cyIsInByb3ZpZGVySWQiOjMzNywibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvdGl0bGVfY29udGV4dC9qc29uc2NoZW1hLzEtMy0wIiwiZGF0YSI6eyJ0aXRsZUlkIjo1MDMxNCwib2JqZWN0VHlwZSI6Im1vdmllIiwiandSYXdFbnRpdHlJZCI6InRtNTAzMTQiLCJqd0VudGl0eUlkIjoidG01MDMxNCJ9fV19",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.dab0a83d-a456-2887-7423-48e96de4e8c7&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJjNjFiNTExMi1hODgxLTRmNmQtOGIwYy04OTA3NDA2YThmMGQifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLmRhYjBhODNkLWE0NTYtMjg4Ny03NDIzLTQ4ZTk2ZGU0ZThjNyIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoic2QiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6NTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6Mzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60020686&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzMmU5NDcxZS0yMTdjLTQ5ZDUtODNkNi1lYmIzNTYxOGM4NzkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDIwNjg2IiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ"
+                },
+                "trailer": "https://www.youtube.com/watch?v=B88JfTyJ1Fw&pp=ygUWU2hyZWsgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            },
+            {
+                "Title": "Scary Movie",
+                "Year": "2000",
+                "Rated": "R",
+                "Released": "07 Jul 2000",
+                "Runtime": "88 min",
+                "Genre": "Comedy",
+                "Director": "Keenen Ivory Wayans",
+                "Writer": "Shawn Wayans, Marlon Wayans, Buddy Johnson",
+                "Actors": "Anna Faris, Jon Abrahams, Marlon Wayans",
+                "Plot": "A group of teenagers including Cindy Campbell and Bobby Prinze, accidentally hit a man when driving, and dispose of the body, but now they are being stalked by a very recognisable masked killer. The victim count increases, whilst Cindy must survive the carnage that has she has seen in so many films before.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "7 wins & 7 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "6.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "51%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "48/100"
+                    }
+                ],
+                "Metascore": "48",
+                "imdbRating": "6.3",
+                "imdbVotes": "316,286",
+                "imdbID": "tt0175142",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$157,019,771",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60000870&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiI5YjMzMDQ4MC03MWQ4LTQ2ZmMtYTRmYy01ZDJlMzExMDQyMGYifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDAwODcwIiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.232bfcb1-fe9b-4958-a821-888722ed046f&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzYmI4YzMyMC0xMDE3LTRmN2YtYmU5MS02Njg0YTNmYzA5ZmMifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLjIzMmJmY2IxLWZlOWItNDk1OC1hODIxLTg4ODcyMmVkMDQ2ZiIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoiaGQiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6OTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6NDk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "HBO Max": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fplay.hbomax.com%2Fshow%2Fa9f32ad0-ea67-4d8e-8f07-51041a30cb66%3Futm_source%3Duniversal_search&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIxNDNhNTc5MS01NjFkLTRhNmEtYmRlZS05ODdiNzc1MWU3NmUifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vcGxheS5oYm9tYXguY29tL3Nob3cvYTlmMzJhZDAtZWE2Ny00ZDhlLThmMDctNTEwNDFhMzBjYjY2P3V0bV9zb3VyY2U9dW5pdmVyc2FsX3NlYXJjaCIsInByb3ZpZGVyIjoiSEJPIE1heCIsInByb3ZpZGVySWQiOjE4OTksIm1vbmV0aXphdGlvblR5cGUiOiJmbGF0cmF0ZSIsInByZXNlbnRhdGlvblR5cGUiOiJoZCIsImN1cnJlbmN5IjoiRVVSIiwicGFydG5lcklkIjoxLCJmaWx0ZXJPcHRpb24iOiJhbGwiLCJwbGFjZW1lbnQiOiJyZWd1bGFyX2J1eWJveCIsImNsaWNrb3V0VHlwZSI6InJlZ3VsYXIiLCJjb3VudHJ5IjoiRVMiLCJub09mZmVyIjpmYWxzZX19XX0"
+                },
+                "trailer": "https://www.youtube.com/watch?v=3iy0pE1FBkc&pp=ygUcU2NhcnkgTW92aWUgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            },
+            {
+                "Title": "Planet Terror",
+                "Year": "2007",
+                "Rated": "R",
+                "Released": "06 Apr 2007",
+                "Runtime": "105 min",
+                "Genre": "Action, Comedy, Horror",
+                "Director": "Robert Rodriguez",
+                "Writer": "Robert Rodriguez",
+                "Actors": "Rose McGowan, Freddy Rodr\u00edguez, Josh Brolin",
+                "Plot": "After an experimental bio-nerve gas is accidentally released at a remote U.S. military base in Texas, those exposed to the gas turn into flesh-eating, mutating zombies out to kill. An assortment of various people who include stripper Cherry, her shady mechanic ex-boyfriend Wray, a strong-willed doctor, the local sheriff, and an assortment of various people must join forces to survive the night as the so-called \"sickos\" threaten to take over the whole town and the world.",
+                "Language": "English",
+                "Country": "United States, Mexico",
+                "Awards": "3 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNmEzZTAxNDQtN2ZmMy00NGNlLWI3NDYtNGI3ZTlkNWU1NWZhXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.0/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "77%"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "7.0",
+                "imdbVotes": "231,279",
+                "imdbID": "tt1077258",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.primevideo.com%2F-%2Fes%2Foffers%3Ftag%3Damazon-es-ft-mov-21&uct_country=ES&uct_ft=1&uct_pt=movie&uct_aid=463&uct_bid=019bc40f-c9e9-70b7-8376-8336eebc2fae&uct_cid=25&uct_ct=fallback&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiI4MmI0YzBhZS1hNjk4LTRjOWEtOTdhZS05NzFjNjA5Nzk3NzgifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NzUwMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTc1MDE0IiwiandFbnRpdHlJZCI6InRtNzUwMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3LnByaW1ldmlkZW8uY29tLy0vZXMvb2ZmZXJzP3RhZz1hbWF6b24tZXMtZnQtbW92LTIxIiwicHJvdmlkZXIiOiJQcmltZSBWaWRlbyIsInByb3ZpZGVySWQiOjExOSwibW9uZXRpemF0aW9uVHlwZSI6ImZyZWUiLCJwcmVzZW50YXRpb25UeXBlIjoiaGQiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoiZnJlZV90cmlhbCIsIm5vT2ZmZXIiOmZhbHNlfX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvZmxleF9jb250ZXh0L2pzb25zY2hlbWEvMi0wLTAiLCJkYXRhIjp7ImRhdGEiOnsiYWRfc2VydmVyIjoiZGlzYWJsZWQifX19XX0"
+                },
+                "trailer": "https://www.youtube.com/watch?v=d4b0nChWq5g&pp=ygUeUGxhbmV0IFRlcnJvciB0cmFpbGVyIGVzcGHDsW9s"
+            },
+            {
+                "Title": "Birdemic: Shock and Terror",
+                "Year": "2010",
+                "Rated": "Not Rated",
+                "Released": "27 Feb 2010",
+                "Runtime": "105 min",
+                "Genre": "Horror, Thriller",
+                "Director": "James Nguyen",
+                "Writer": "James Nguyen",
+                "Actors": "Alan Bagh, Whitney Moore, Tippi Hedren",
+                "Plot": "In the town of Half Moon Bay California, there's an epidemic on the horizon: a Birdemic. All the birds are attacking humanity for their devastating damage they're inflicting on the Earth: they're going after gas stations and people's cars, and the birds have something the humans will never see coming: Bird-Acid.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "N/A",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BOTcxODAwMDYwNV5BMl5BanBnXkFtZTcwNzQ3MjQzMg@@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "1.7/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "19%"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "1.7",
+                "imdbVotes": "25,876",
+                "imdbID": "tt1316037",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Batman",
+                "Year": "1989",
+                "Rated": "PG-13",
+                "Released": "23 Jun 1989",
+                "Runtime": "126 min",
+                "Genre": "Action, Adventure",
+                "Director": "Tim Burton",
+                "Writer": "Bob Kane, Sam Hamm, Warren Skaaren",
+                "Actors": "Michael Keaton, Jack Nicholson, Kim Basinger",
+                "Plot": "Gotham City. Crime boss Carl Grissom (Jack Palance) effectively runs the town but there's a new crime fighter in town - Batman (Michael Keaton). Grissom's right-hand man is Jack Napier (Jack Nicholson), a brutal man who is not entirely sane... After falling out between the two Grissom has Napier set up with the Police and Napier falls to his apparent death in a vat of chemicals. However, he soon reappears as The Joker and starts a reign of terror in Gotham City. Meanwhile, reporter Vicki Vale (Kim Basinger) is in the city to do an article on Batman. She soon starts a relationship with Batman's everyday persona, billionaire Bruce Wayne.",
+                "Language": "English, French, Spanish",
+                "Country": "United States, United Kingdom",
+                "Awards": "Won 1 Oscar. 13 wins & 30 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.5/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "77%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "69/100"
+                    }
+                ],
+                "Metascore": "69",
+                "imdbRating": "7.5",
+                "imdbVotes": "427,888",
+                "imdbID": "tt0096895",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$251,409,241",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%232261137&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.a4a9f7bf-f17a-1955-3d02-2300d75f462a&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiI2MmQ1OWU3Ny1kMWViLTRkM2YtYTUxZS0zOTgzMTBlZjk0Y2MifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTM4MDAwLCJvYmplY3RUeXBlIjoibW92aWUiLCJqd1Jhd0VudGl0eUlkIjoidG0xMzgwMDAiLCJqd0VudGl0eUlkIjoidG0xMzgwMDAifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLmE0YTlmN2JmLWYxN2EtMTk1NS0zZDAyLTIzMDBkNzVmNDYyYSIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoiNGsiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6Nzk5LCJvcmlnaW5hbFByaWNlQ2VudCI6Mzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "HBO Max": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%232261137&r=https%3A%2F%2Fplay.hbomax.com%2Fshow%2Fa14fb13a-1d49-41c3-82ec-3a42c346cb67%3Futm_source%3Duniversal_search&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJlMGRmZWU5OS1hYWFhLTRmNDYtOTg0My0xY2IxYzVjMTMyZGEifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTM4MDAwLCJvYmplY3RUeXBlIjoibW92aWUiLCJqd1Jhd0VudGl0eUlkIjoidG0xMzgwMDAiLCJqd0VudGl0eUlkIjoidG0xMzgwMDAifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vcGxheS5oYm9tYXguY29tL3Nob3cvYTE0ZmIxM2EtMWQ0OS00MWMzLTgyZWMtM2E0MmMzNDZjYjY3P3V0bV9zb3VyY2U9dW5pdmVyc2FsX3NlYXJjaCIsInByb3ZpZGVyIjoiSEJPIE1heCIsInByb3ZpZGVySWQiOjE4OTksIm1vbmV0aXphdGlvblR5cGUiOiJmbGF0cmF0ZSIsInByZXNlbnRhdGlvblR5cGUiOiI0ayIsImN1cnJlbmN5IjoiRVVSIiwicGFydG5lcklkIjoxLCJmaWx0ZXJPcHRpb24iOiJhbGwiLCJwbGFjZW1lbnQiOiJyZWd1bGFyX2J1eWJveCIsImNsaWNrb3V0VHlwZSI6InJlZ3VsYXIiLCJjb3VudHJ5IjoiRVMiLCJub09mZmVyIjpmYWxzZX19XX0"
+                },
+                "trailer": "https://www.youtube.com/watch?v=IqRRLA6pZvo&pp=ygUXQmF0bWFuIHRyYWlsZXIgZXNwYcOxb2w%3D",
+                "mi_puntuacion": 5
+            },
+            {
+                "Title": "Confessions of a Teenage Drama Queen",
+                "Year": "2004",
+                "Rated": "PG",
+                "Released": "20 Feb 2004",
+                "Runtime": "89 min",
+                "Genre": "Comedy, Family, Music",
+                "Director": "Sara Sugarman",
+                "Writer": "Dyan Sheldon, Gail Parent",
+                "Actors": "Lindsay Lohan, Megan Fox, Adam Garcia",
+                "Plot": "When the teenager Mary Elizabeth Steppe, a.k.a. Lola, moves with her mother and two younger twin sisters from New York to the suburb of Dellwood, New Jersey, she has the feeling that her cultural and entertaining world ended. While in school, the displaced Lola becomes close friend of the unpopular Ella, who is also a great fan of the her favorite rock band Sidarthur. However, the most popular girl in the school, Carla Santini, disputes the lead role in an adaptation of Pygmalion with Lola and also the leadership of their mates. When the last concert of Sidarthur is sold-out, Lola plans with Ella to travel to New York and buy the tickets from scalpers. However, the girls get into trouble while helping the lead singer and Lola's idol Stu Wolf, changing their lives forever.",
+                "Language": "English",
+                "Country": "Germany, United States, Canada",
+                "Awards": "1 win total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTIzMDE0MDQ5Ml5BMl5BanBnXkFtZTcwNTUwMDUyMQ@@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "4.7/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "13%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "33/100"
+                    }
+                ],
+                "Metascore": "33",
+                "imdbRating": "4.7",
+                "imdbVotes": "33,006",
+                "imdbID": "tt0361467",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$29,331,068",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Disney+": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fdisneyplus.bn5x.net%2Fc%2F1206980%2F705874%2F9358%3Fu%3Dhttps%253A%252F%252Fwww.disneyplus.com%252Fes-es%252Fbrowse%252Fentity-e8a90488-f219-46c9-8775-52c5f50dc3f3%26subId3%3Djustappsvod&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiI5N2IyYjRlNi00NDExLTQ4ZGEtYTc0Yy0xMjc1ZGYwNjg0NzUifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6Nzg3OTgsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTc4Nzk4IiwiandFbnRpdHlJZCI6InRtNzg3OTgifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vZGlzbmV5cGx1cy5ibjV4Lm5ldC9jLzEyMDY5ODAvNzA1ODc0LzkzNTg_dT1odHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5kaXNuZXlwbHVzLmNvbSUyNTJGZXMtZXMlMjUyRmJyb3dzZSUyNTJGZW50aXR5LWU4YTkwNDg4LWYyMTktNDZjOS04Nzc1LTUyYzVmNTBkYzNmMyZzdWJJZDM9anVzdGFwcHN2b2QiLCJwcm92aWRlciI6IkRpc25leSBQbHVzIiwicHJvdmlkZXJJZCI6MzM3LCJtb25ldGl6YXRpb25UeXBlIjoiZmxhdHJhdGUiLCJwcmVzZW50YXRpb25UeXBlIjoiaGQiLCJjdXJyZW5jeSI6IkVVUiIsInBhcnRuZXJJZCI6MSwiZmlsdGVyT3B0aW9uIjoiYWxsIiwicGxhY2VtZW50IjoicmVndWxhcl9idXlib3giLCJjbGlja291dFR5cGUiOiJyZWd1bGFyIiwiY291bnRyeSI6IkVTIiwibm9PZmZlciI6ZmFsc2V9fV19",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.0cb7231b-b96c-2201-3d8c-e5adc417f8b8&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIwYjA3NjhkMS0yOWFmLTQ3NjctYTNiOC1kZGNhYmFmOTcyYTAifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6Nzg3OTgsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTc4Nzk4IiwiandFbnRpdHlJZCI6InRtNzg3OTgifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLjBjYjcyMzFiLWI5NmMtMjIwMS0zZDhjLWU1YWRjNDE3ZjhiOCIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoic2QiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6Nzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ"
+                },
+                "trailer": "https://www.youtube.com/watch?v=g99466j-G3Y&pp=ygU1Q29uZmVzc2lvbnMgb2YgYSBUZWVuYWdlIERyYW1hIFF1ZWVuIHRyYWlsZXIgZXNwYcOxb2w%3D"
+            },
+            {
+                "Title": "A Woman of Paris: A Drama of Fate",
+                "Year": "1923",
+                "Rated": "Passed",
+                "Released": "04 Nov 1923",
+                "Runtime": "82 min",
+                "Genre": "Drama, Romance",
+                "Director": "Charles Chaplin",
+                "Writer": "Charles Chaplin",
+                "Actors": "Edna Purviance, Clarence Geldert, Carl Miller",
+                "Plot": "Believing that she has been jilted by her artist fiance' Jean when he fails to meet her at the railway station, Marie St. Clair goes off to Paris alone. A year later, mistress of wealthy Pierre Revel, she meets Jean again. Misinterpreting events, she bounces back and forth between apparent security and true love.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "3 wins total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BOTFhYmZjZDUtMzZmMC00YzRmLTlmOTUtZjJlN2M1MzBjODFhXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "6.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "94%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "76/100"
+                    }
+                ],
+                "Metascore": "76",
+                "imdbRating": "6.9",
+                "imdbVotes": "6,548",
+                "imdbID": "tt0014624",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Kim Possible: So the Drama",
+                "Year": "2005",
+                "Rated": "TV-G",
+                "Released": "08 Apr 2005",
+                "Runtime": "71 min",
+                "Genre": "Animation, Action, Adventure",
+                "Director": "Steve Loter",
+                "Writer": "Bob Schooley, Mark McCorkle",
+                "Actors": "Christy Carlson Romano, Will Friedle, Nancy Cartwright",
+                "Plot": "Dr. Drakken has an evil new plot for world domination, but his ultimate success depends upon finding out KP's weakness which may involve a new hottie at Middleton High School named Eric, who suddenly sparks feelings in Ron about Kim that resemble much more than friendship. To make matters worse, Bueno Nacho, Ron's favorite fast food chain has turned sour on him by bombarding him with little Devil diablo toys. Does this mean KP may finally have to surrender to Drakken once and for all?",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "1 nomination total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMzNlMTUyMTAtZjNjMC00NTFmLWExYjAtZDU0ZjRkYjQwYWIzXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.1/10"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "7.1",
+                "imdbVotes": "5,317",
+                "imdbID": "tt0446724",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "A Divina Com\u00e9dia",
+                "Year": "1991",
+                "Rated": "N/A",
+                "Released": "11 Oct 1991",
+                "Runtime": "140 min",
+                "Genre": "Drama",
+                "Director": "Manoel de Oliveira",
+                "Writer": "Manoel de Oliveira, Fyodor Dostoevsky, Jos\u00e9 R\u00e9gio",
+                "Actors": "Maria de Medeiros, Miguel Guilherme, Lu\u00eds Miguel Cintra",
+                "Plot": "All of the inhabitants of a Portuguese mental asylum suffer from religious delusions of one kind or another -- even the cynic who denies the value of any religions at all. One couple re-enacts the story of Adam and Eve in the Garden, and then the woman who played at being Eve plays at being St. Teresa de Avila. Another man thinks he's a character from a Dostoyevsky novel, and yet another claims to have in his possession a fifth gospel from the Bible. Everyone has a point of view and is not shy about stating it, defending it in debate with the others with great sincerity, though with very little elegance or wit.",
+                "Language": "Portuguese",
+                "Country": "Portugal, France, Switzerland",
+                "Awards": "1 win & 1 nomination",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNjI0Mjk2NjE5N15BMl5BanBnXkFtZTYwNDg1Nzc5._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.1/10"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "7.1",
+                "imdbVotes": "512",
+                "imdbID": "tt0101739",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "Paulo Branco",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Com\u00e9dia Infantil",
+                "Year": "1998",
+                "Rated": "N/A",
+                "Released": "24 Jul 1998",
+                "Runtime": "93 min",
+                "Genre": "Drama",
+                "Director": "Solveig Nordlund",
+                "Writer": "Tommy Karlmark, Henning Mankell, Solveig Nordlund",
+                "Actors": "S\u00e9rgio Titos, Jaime Julio, Francisco Chilengue",
+                "Plot": "Based on the book by Henning Mankell (Sweden), this story takes place in Mozambique and is about a young boy, Nelio, who loses his entire family during a time of civil war. A wounded Nelio is found by a baker in the capital Mapouto; refusing medical treatment, the boy instead asks for sanctuary so he can tell his terrible tale. This he proceeds to do, starting with how the fighters arrived in his village and slaughtered many, to his captivity, his escape and his teaming with other orphaned street urchins to become their leader in survival.",
+                "Language": "Portuguese",
+                "Country": "Sweden, Portugal, Mozambique",
+                "Awards": "1 win & 2 nominations",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BYzgxYjhkOTQtZDVlMi00ZGU4LTg3ZDAtMjQyNThjM2YxYWJmXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "6.1/10"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "6.1",
+                "imdbVotes": "89",
+                "imdbID": "tt0154350",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            },
+            {
+                "Title": "Zapada, una comedia beat",
+                "Year": "2002",
+                "Rated": "N/A",
+                "Released": "24 Apr 2002",
+                "Runtime": "76 min",
+                "Genre": "Comedy",
+                "Director": "Ra\u00fal Perrone",
+                "Writer": "Ra\u00fal Perrone, Sergio Wolf",
+                "Actors": "Diego Capusotto, Campi, Santiago R\u00edos",
+                "Plot": "The friends Coco and Peluca walk through their neighborhood while they wait for the payment to be brought to them for a job they had done.",
+                "Language": "Spanish",
+                "Country": "Argentina",
+                "Awards": "N/A",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BM2U5ZTQ2YmEtNzQ3OS00MTMyLWEwZjMtZTY1OGM4ZTExNTg4XkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "5.3/10"
+                    }
+                ],
+                "Metascore": "N/A",
+                "imdbRating": "5.3",
+                "imdbVotes": "56",
+                "imdbID": "tt0304968",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {},
+                "trailer": null
+            }
+        ],
+        "historial": [
+            "Batman",
+            "Shrek",
+            "Nemo",
+            "Adam Sandler"
+        ],
+        "watchlist": [
+            {
+                "Title": "Shrek",
+                "Year": "2001",
+                "Rated": "PG",
+                "Released": "18 May 2001",
+                "Runtime": "90 min",
+                "Genre": "Animation, Adventure, Comedy",
+                "Director": "Andrew Adamson, Vicky Jenson",
+                "Writer": "William Steig, Ted Elliott, Terry Rossio",
+                "Actors": "Mike Myers, Eddie Murphy, Cameron Diaz",
+                "Plot": "When a green ogre named Shrek discovers his swamp has been 'swamped' with all sorts of fairytale creatures by the scheming Lord Farquaad, Shrek sets out with a very loud donkey by his side to 'persuade' Farquaad to give Shrek his swamp back. Instead, a deal is made. Farquaad, who wants to become the King, sends Shrek to rescue Princess Fiona, who is awaiting her true love in a tower guarded by a fire-breathing dragon. But once they head back with Fiona, it starts to become apparent that not only does Shrek, an ugly ogre, begin to fall in love with the lovely princess, but Fiona is also hiding a huge secret.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "Won 1 Oscar. 40 wins & 60 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "88%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "84/100"
+                    }
+                ],
+                "Metascore": "84",
+                "imdbRating": "7.9",
+                "imdbVotes": "797,094",
+                "imdbID": "tt0126029",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$268,698,241",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Disney+": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fdisneyplus.bn5x.net%2Fc%2F1206980%2F705874%2F9358%3Fu%3Dhttps%253A%252F%252Fwww.disneyplus.com%252Fes-es%252Fbrowse%252Fentity-fbf0d88f-babb-4c18-beff-b84ac5236314%26subId3%3Djustappsvod&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJhMGEzZDUzZS1kMmU0LTRhZTQtYWU3YS02ZmNiMzg5MTY2MTkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2ludGVyYWN0aW9uX2NvbnRleHQvanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiaXNBY3RpdmUiOnRydWV9fSx7InNjaGVtYSI6ImlnbHU6Y29tLmp1c3R3YXRjaC9wYWdlX3R5cGVfY29udGV4dC9qc29uc2NoZW1hLzEtMS0wIiwiZGF0YSI6eyJwYWdlVHlwZSI6Ik1PVklFIiwiYXBwTG9jYWxlIjoiSU4iLCJhcHBMYW5ndWFnZSI6ImVuIn19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2NsaWNrb3V0X2NvbnRleHQvanNvbnNjaGVtYS8xLTEwLTAiLCJkYXRhIjp7ImRlZXBsaW5rRmFsbGJhY2siOiJodHRwczovL2Rpc25leXBsdXMuYm41eC5uZXQvYy8xMjA2OTgwLzcwNTg3NC85MzU4P3U9aHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZGlzbmV5cGx1cy5jb20lMjUyRmVzLWVzJTI1MkZicm93c2UlMjUyRmVudGl0eS1mYmYwZDg4Zi1iYWJiLTRjMTgtYmVmZi1iODRhYzUyMzYzMTQmc3ViSWQzPWp1c3RhcHBzdm9kIiwicHJvdmlkZXIiOiJEaXNuZXkgUGx1cyIsInByb3ZpZGVySWQiOjMzNywibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvdGl0bGVfY29udGV4dC9qc29uc2NoZW1hLzEtMy0wIiwiZGF0YSI6eyJ0aXRsZUlkIjo1MDMxNCwib2JqZWN0VHlwZSI6Im1vdmllIiwiandSYXdFbnRpdHlJZCI6InRtNTAzMTQiLCJqd0VudGl0eUlkIjoidG01MDMxNCJ9fV19",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.dab0a83d-a456-2887-7423-48e96de4e8c7&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiJjNjFiNTExMi1hODgxLTRmNmQtOGIwYy04OTA3NDA2YThmMGQifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLmRhYjBhODNkLWE0NTYtMjg4Ny03NDIzLTQ4ZTk2ZGU0ZThjNyIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoic2QiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6NTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6Mzk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60020686&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzMmU5NDcxZS0yMTdjLTQ5ZDUtODNkNi1lYmIzNTYxOGM4NzkifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6NTAzMTQsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTUwMzE0IiwiandFbnRpdHlJZCI6InRtNTAzMTQifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJJTiIsImFwcExhbmd1YWdlIjoiZW4ifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDIwNjg2IiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ"
+                },
+                "trailer": "https://www.youtube.com/watch?v=B88JfTyJ1Fw&pp=ygUWU2hyZWsgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            },
+            {
+                "Title": "Scary Movie",
+                "Year": "2000",
+                "Rated": "R",
+                "Released": "07 Jul 2000",
+                "Runtime": "88 min",
+                "Genre": "Comedy",
+                "Director": "Keenen Ivory Wayans",
+                "Writer": "Shawn Wayans, Marlon Wayans, Buddy Johnson",
+                "Actors": "Anna Faris, Jon Abrahams, Marlon Wayans",
+                "Plot": "A group of teenagers including Cindy Campbell and Bobby Prinze, accidentally hit a man when driving, and dispose of the body, but now they are being stalked by a very recognisable masked killer. The victim count increases, whilst Cindy must survive the carnage that has she has seen in so many films before.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "7 wins & 7 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "6.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "51%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "48/100"
+                    }
+                ],
+                "Metascore": "48",
+                "imdbRating": "6.3",
+                "imdbVotes": "316,286",
+                "imdbID": "tt0175142",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "$157,019,771",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True",
+                "info_streaming": {
+                    "Netflix": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fwww.netflix.com%2Ftitle%2F60000870&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiI5YjMzMDQ4MC03MWQ4LTQ2ZmMtYTRmYy01ZDJlMzExMDQyMGYifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vd3d3Lm5ldGZsaXguY29tL3RpdGxlLzYwMDAwODcwIiwicHJvdmlkZXIiOiJOZXRmbGl4IFN0YW5kYXJkIHdpdGggQWRzIiwicHJvdmlkZXJJZCI6MTc5NiwibW9uZXRpemF0aW9uVHlwZSI6ImZsYXRyYXRlIiwicHJlc2VudGF0aW9uVHlwZSI6ImhkIiwiY3VycmVuY3kiOiJFVVIiLCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "Prime Video": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.232bfcb1-fe9b-4958-a821-888722ed046f&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIzYmI4YzMyMC0xMDE3LTRmN2YtYmU5MS02Njg0YTNmYzA5ZmMifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vYXBwLnByaW1ldmlkZW8uY29tL2RldGFpbD9ndGk9YW16bjEuZHYuZ3RpLjIzMmJmY2IxLWZlOWItNDk1OC1hODIxLTg4ODcyMmVkMDQ2ZiIsInByb3ZpZGVyIjoiQW1hem9uIFZpZGVvIiwicHJvdmlkZXJJZCI6MTAsIm1vbmV0aXphdGlvblR5cGUiOiJidXkiLCJwcmVzZW50YXRpb25UeXBlIjoiaGQiLCJjdXJyZW5jeSI6IkVVUiIsInByaWNlQ2VudCI6OTk5LCJvcmlnaW5hbFByaWNlQ2VudCI6NDk5LCJwYXJ0bmVySWQiOjEsImZpbHRlck9wdGlvbiI6ImFsbCIsInBsYWNlbWVudCI6InJlZ3VsYXJfYnV5Ym94IiwiY2xpY2tvdXRUeXBlIjoicmVndWxhciIsImNvdW50cnkiOiJFUyIsIm5vT2ZmZXIiOmZhbHNlfX1dfQ",
+                    "HBO Max": "https://e.justwatch.com/a?uct_web_app_version=3.13.0-webapp%2398be382&r=https%3A%2F%2Fplay.hbomax.com%2Fshow%2Fa9f32ad0-ea67-4d8e-8f07-51041a30cb66%3Futm_source%3Duniversal_search&uct_country=ES&uct_buybox=normal&cx=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy9jb250ZXh0cy9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6W3sic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL2xpbmtfY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJsaW5rIjp7InNlbGYiOiIxNDNhNTc5MS01NjFkLTRhNmEtYmRlZS05ODdiNzc1MWU3NmUifX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3RpdGxlX2NvbnRleHQvanNvbnNjaGVtYS8xLTMtMCIsImRhdGEiOnsidGl0bGVJZCI6MTg1NjMsIm9iamVjdFR5cGUiOiJtb3ZpZSIsImp3UmF3RW50aXR5SWQiOiJ0bTE4NTYzIiwiandFbnRpdHlJZCI6InRtMTg1NjMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvaW50ZXJhY3Rpb25fY29udGV4dC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJpc0FjdGl2ZSI6dHJ1ZX19LHsic2NoZW1hIjoiaWdsdTpjb20uanVzdHdhdGNoL3BhZ2VfdHlwZV9jb250ZXh0L2pzb25zY2hlbWEvMS0xLTAiLCJkYXRhIjp7InBhZ2VUeXBlIjoiTU9WSUUiLCJhcHBMb2NhbGUiOiJFUyIsImFwcExhbmd1YWdlIjoiZXMifX0seyJzY2hlbWEiOiJpZ2x1OmNvbS5qdXN0d2F0Y2gvY2xpY2tvdXRfY29udGV4dC9qc29uc2NoZW1hLzEtMTAtMCIsImRhdGEiOnsiZGVlcGxpbmtGYWxsYmFjayI6Imh0dHBzOi8vcGxheS5oYm9tYXguY29tL3Nob3cvYTlmMzJhZDAtZWE2Ny00ZDhlLThmMDctNTEwNDFhMzBjYjY2P3V0bV9zb3VyY2U9dW5pdmVyc2FsX3NlYXJjaCIsInByb3ZpZGVyIjoiSEJPIE1heCIsInByb3ZpZGVySWQiOjE4OTksIm1vbmV0aXphdGlvblR5cGUiOiJmbGF0cmF0ZSIsInByZXNlbnRhdGlvblR5cGUiOiJoZCIsImN1cnJlbmN5IjoiRVVSIiwicGFydG5lcklkIjoxLCJmaWx0ZXJPcHRpb24iOiJhbGwiLCJwbGFjZW1lbnQiOiJyZWd1bGFyX2J1eWJveCIsImNsaWNrb3V0VHlwZSI6InJlZ3VsYXIiLCJjb3VudHJ5IjoiRVMiLCJub09mZmVyIjpmYWxzZX19XX0"
+                },
+                "trailer": "https://www.youtube.com/watch?v=3iy0pE1FBkc&pp=ygUcU2NhcnkgTW92aWUgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+            }
+        ],
+        "comentarios": {
+            "tt0126029": "La quiero ver ma\u00f1ana",
+            "tt0175142": "Ver m\u00e1s tarde"
+        }
+    },
+    "mecano@gmail.com": {
+        "nombre": "Mecano",
+        "fecha_nacimiento": "14/08/2004",
+        "genero": "Femenino",
+        "cine_favorito": [
+            "Drama",
+            "Sci-Fi",
+            "Romance"
+        ]
+    },
+    "pruebafinal@gmail.com": {
+        "nombre": "Jacinta",
+        "fecha_nacimiento": "16/01/1995",
+        "genero": "Femenino",
+        "cine_favorito": [
+            "Comedia",
+            "Drama",
+            "Sci-Fi"
+        ]
+    }
+}
