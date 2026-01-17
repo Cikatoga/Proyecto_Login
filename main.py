@@ -74,7 +74,7 @@ class App(ctk.CTk):
         self.mostrar_toast("¡Enlace copiado! 🚀")
 
     def mostrar_toast(self, mensaje):
-        toast = ctk.CToplevel(self)
+        toast = ctk.CTkToplevel(self)
         # Ajuste de posición para que se vea sobre el botón
         toast.geometry(f"350x60+{self.winfo_x()+100}+{self.winfo_y()+700}")
         toast.overrideredirect(True)
